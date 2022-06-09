@@ -1,31 +1,52 @@
-# Cloud Developer ND Course 2: Design for Performance and Scalability
+### Updated Terraform Code
+- [x] `/Exercise_1 `
+- [x] `/Exercise_2`
 
 ---
+### Cost Effective AWS Infrastructure diagram
+- `/Files/Udacity_Diagram_1.png`
 
-## Project  Instructions
+---
+### Serverless schematic design
+- [x] `/Files/Udacity_Diagram_2.png`
 
-### Exercise 1
+---
+### Initial Cost Estimate
+- [x] `/Files/Initial_Cost_Estimate.csv`
+  - Reasonable Aurora ACU's and all live data
+  - Apllication and Webservers medium and scaled
 
-1. Download the [starter code](https://github.com/udacity/cand-c2-project).
-2. In the main.tf file write the code to provision
-   * AWS as the cloud provider
-   * Use an existing VPC ID
-   * Use an existing public subnet
-   * 4 AWS t2.micro EC2 instances named Udacity T2
-   * 2 m4.large EC2 instances named Udacity M4
-3. Run Terraform. 
-4. Take a screenshot of the 6 EC2 instances in the AWS console and save it as `Terraform_1_1`. 
-5. Use Terraform to  delete the 2 m4.large instances 
-6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2`
+---
+### Reduced Cost Estimate
+- [x] `/Files/Reduced_Cost_Estimate.csv`
+  - Fewer EC2 servers
+  - Lower database ACU and keep less live data
 
-### Exercise 2
+---
+### Increased Cost Estimate
+- [x] `/Files/Increased_Cost_Estimate.csv`
+  - Beef up database ACU
+  - Add EC2 instances and keep more live data 
 
-1. In the  Exercise_2 folder, write the code to deploy an AWS Lambda Function using Terraform. Your code should include:
+---
+### IAMS Password policy screenshot 
+- [x] `/Files/udacity_password_policy.png`
 
-   * A lambda.py file
-   * A main.tf file with AWS as the provider, and IAM role for Lambda, a VPC, and a public subnet
-   * An outputs.tf file
-   * A variables.tf file with an AWS region
+---
+### CloudTrail Log 
+- [x] `/Files/UdacityCloudTrailLog.csv`
+  - Files/IAM_screenshots/*  
   
-2. Take a screenshot of the EC2 instances page
-3. Take a screenshot of the VPC page 
+ ---
+### Cloudwatch Billing alarm 
+- [x] `/Files/Cloudwatch_Alarm.png`
+
+---
+### AWS Console screenshots
+- [x] `/Files/Terraform_1_1.png`
+- [x] `/Files/Terraform_1_2.png`
+- [x] `/Files/Terraform_2_1.png`
+- [x] `/Files/Terraform_2_2.png`
+- [x] `/Files/Terraform_2_3.png`
+- [x] `/Files/Terraform_destroyed.png`
+  - `/Files/Terraform_lambda_destroyed.png`

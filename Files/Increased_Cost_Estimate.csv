@@ -1,0 +1,13 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,VPN Connection,0,640,7680.00,USD,"Working days per month (22), Number of Site-to-Site VPN Connections (0), Number of subnet associations (5)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,157.86,1894.32,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),application ELB,Application Load Balancer,0,57.39,688.68,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),web ELB,Application Load Balancer,0,68.99000000000001,827.88,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),web servers,Amazon EC2,0,2610.08,31320.96,USD,"Operating system (Linux), Quantity (50), Pricing strategy (On-Demand Instances), Storage amount (200 GB), Instance type (t2.medium)"
+My Estimate,US East (N. Virginia),Aurora Master DB,Amazon Aurora PostgreSQL-Compatible DB,0,5553.92,66647.04,USD,"Storage amount (5 TB), Additional backup storage (5 TB)"
+My Estimate,US East (N. Virginia),Elastic IP,Amazon Elastic IP,0,24,288.00,USD,"Number of EC2 instances (20), Number of EIPs per instance (1), Number of EIP remaps (80)"
+My Estimate,US East (N. Virginia),CDN,Amazon CloudFront,0,4.2,50.40,USD,"Data transfer out to internet (20 GB per month), Data transfer out to origin (25 GB per month), Number of requests (HTTPS) (2 million per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,121.18,1454.16,USD,S3 Standard storage (5 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),application servers (on-demand),Amazon EC2,0,4514.26,54171.12,USD,"Operating system (Linux), Quantity (30), Pricing strategy (On-Demand Instances), Storage amount (250 GB), Instance type (m6gd.xlarge)"
+My Estimate,US East (N. Virginia),Aurora Read replica,Amazon Aurora PostgreSQL-Compatible DB,0,5532.32,66387.84,USD,"Storage amount (5 TB), Additional backup storage (5 TB)"

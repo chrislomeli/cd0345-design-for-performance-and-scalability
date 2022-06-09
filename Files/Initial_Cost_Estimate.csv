@@ -1,0 +1,16 @@
+My Estimate
+Description,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Data Transfer,US East (N. Virginia),Data Transfer,0,$0.00,0.00,USD,
+Cloudfront CDN,US East (N. Virginia),Amazon CloudFront,0,$4.20,50.40,USD,"Data transfer out to internet (20 GB per month), Data transfer out to origin (25 GB per month), Number of requests (HTTPS) (2 million per month)"
+EIP,US East (N. Virginia),Amazon Elastic IP,0,$24.00,288.00,USD,"Number of EC2 instances (20), Number of EIPs per instance (1), Number of EIP remaps (80)"
+Application servers ALB,US East (N. Virginia),Application Load Balancer,0,$25.19,302.28,USD,Number of Application Load Balancers (1)
+Web UI Bucket,US East (N. Virginia),S3 Standard,0,$26.98,323.76,USD,S3 Standard storage (1 TB per month)
+Web servers ALB,US East (N. Virginia),Application Load Balancer,0,$68.99,827.88,USD,Number of Application Load Balancers (1)
+NAT’s,US East (N. Virginia),Network Address Translation (NAT) Gateway,0,$157.86,1894.32,USD,Number of NAT Gateways (2)
+VPC,US East (N. Virginia),VPN Connection,0,$640.00,7680.00,USD,"Working days per month (22), Number of Site-to-Site VPN Connections (0), Number of subnet associations (5)"
+Web servers (reserved),US East (N. Virginia),Amazon EC2,0,$645.39,7744.68,USD,"Operating system (Linux), Quantity (10), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+Web servers (on-demand),US East (N. Virginia),Amazon EC2,0,$766.51,9198.12,USD,"Operating system (Linux), Quantity (10), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t4g.xlarge)"
+Application servers (reserved),US East (N. Virginia),Amazon EC2,0,"$1,199.93",14399.16,USD,"Operating system (Linux), Quantity (10), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (1 TB), Instance type (m6g.medium)"
+Application servers (on-demand),US East (N. Virginia),Amazon EC2,0,"$1,291.19",15494.28,USD,"Operating system (Linux), Quantity (10), Pricing strategy (On-Demand Instances), Storage amount (1 TB), Instance type (m6g.medium)"
+Read replica,US East (N. Virginia),Amazon Aurora PostgreSQL-Compatible DB,0,"$2,161.30",25935.60,USD,"Storage amount (5 TB), Additional backup storage (1 TB)"
+Master DB,US East (N. Virginia),Amazon Aurora PostgreSQL-Compatible DB,0,"$2,904.32",34851.84,USD,"Storage amount (5 TB), Additional backup storage (5 TB)"
